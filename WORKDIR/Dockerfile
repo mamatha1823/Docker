@@ -1,4 +1,4 @@
-From almalinux:9
+FROM almalinux:9
 RUN dnf nginx install -y
 RUN mkdir abc
 WORKDIR abc
